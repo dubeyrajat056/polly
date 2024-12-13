@@ -1,0 +1,51 @@
+.herorefound {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px #fffefe;
+    overflow: hidden;
+}
+
+.herorefound::before {
+    margin-top: 70px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.3)), url('../@imgs/refound.png'); */
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.3)), url('../img/about/Plastics-manufacturing.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hero {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px #fffefe;
+    overflow: hidden;
+}
+
+.hero::before {
+    margin-top: 70px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.3)), url('../img/about/istockphoto-1027085786-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+}

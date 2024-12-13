@@ -1,0 +1,176 @@
+.navbar-brand {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.btn-custom {
+    background-color: #00c4ff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 700;
+    /* Makes the text bold */
+    color: #007bff;
+    /* Highlight color */
+}
+
+.btn-custom:hover {
+    background-color: #009bcc;
+}
+
+.footer {
+    background-color: #111;
+    padding: 40px 0;
+}
+
+.footer-bottom {
+    background-color: #101010;
+    padding: 20px;
+}
+
+.custom-hr {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+
+.footer .footer-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer p,
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .social-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #28a745;
+}
+
+.footer .subscribe-btn {
+    background-color: #28a745;
+    border: none;
+    color: #ffffff;
+}
+
+.footer .subscribe-btn:hover {
+    background-color: #218838;
+}
+
+.footer {
+    color: white;
+    background-color: #000;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .social-icons a {
+        margin: 0 5px;
+    }
+}
+
+
+
+
+
+
+
+
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.progress-circle svg {
+    transform: rotate(-90deg);
+    width: 120px;
+    height: 120px;
+}
+
+.progress-circle .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 10;
+}
+
+.progress-circle .circle-progress {
+    fill: none;
+    stroke: #007bff;
+    /* Blue color for progress */
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-dasharray: 0 100;
+    transition: stroke-dasharray 1s ease-out;
+}
+
+.progress-circle .circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+/* slider extra str */
+
+
+.carousel-item::before {
+
+    background: rgba(0, 0, 255, 0.2);
+    /* Blue overlay with slight transparency */
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+
+.carousel-item:hover::before {
+    background: rgba(0, 0, 255, 0.4);
+    /* Intensify blue overlay on hover */
+}
+
+/* slider extra end */
